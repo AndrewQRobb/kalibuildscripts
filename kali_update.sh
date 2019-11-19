@@ -4,22 +4,22 @@ TEXT_RESET='\e[0m'
 TEXT_YELLOW='\e[0;33m'
 TEXT_RED_B='\e[1;31m'
 
-sudo apt-get update
+sudo apt update
 echo -e $TEXT_YELLOW
 echo 'APT update finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get dist-upgrade -y
+sudo apt dist-upgrade -y
 echo -e $TEXT_YELLOW
 echo 'APT distributive upgrade finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get upgrade
+sudo apt upgrade
 echo -e $TEXT_YELLOW
 echo 'APT upgrade finished...'
 echo -e $TEXT_RESET
 
-sudo apt-get autoremove -y
+sudo apt autoremove -y
 echo -e $TEXT_YELLOW
 echo 'APT auto remove finished...'
 echo -e $TEXT_RESET
