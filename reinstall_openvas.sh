@@ -1,6 +1,6 @@
 !/bin/bash
 
-# Reset OpenVAS Vulnerability Scanner Script V1.0
+# Reset OpenVAS Vulnerability Scanner
 
 # This script will remove and reinstall OpenVAS
 
