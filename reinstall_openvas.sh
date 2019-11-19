@@ -3,13 +3,12 @@
 # Reset OpenVAS Vulnerability Scanner Script V1.0
 
 # This script will remove and reinstall OpenVAS
-# It is designed for Kali Linux but should work on any Linux system using apt-get
 
 # Remove OpenVAS from the system
-apt-get autoremove openvas 
+apt autoremove openvas 
 
 # Update and install OpenVAS.
-apt-get update && apt-get install -y openvas
+apt update && apt install -y openvas
 
 # Setup, sync and check OpenVAS installation.
 openvas-setup && openvas-scapdata-sync && openvas-certdata-sync && openvas-check-setup && openvas-stop 
